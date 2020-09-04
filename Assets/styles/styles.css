@@ -1,0 +1,18 @@
+html,
+body {
+  min-height: 100%;
+  /* margin-bottom: 60px; */
+}
+
+.bg {
+  background-image: url("../Images/watercolour-4116932_1280.png");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  min-height: 100vh;
+}
+
+img:hover {
+  background-color: #000;
+  opacity: 0.5;
+}

@@ -9,14 +9,14 @@
       integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T"
       crossorigin="anonymous"
     />
-    <link rel="stylesheet" href="Assets/styles.css/styles.css" />
+    <link rel="stylesheet" href="/Assets/styles/styles.css" />
     <title>Responsive Portfolio — Portfolio</title>
   </head>
   <body class="d-flex flex-column">
     <nav
       class="nav nav-sticky navbar navbar-expand-lg navbar-light bg-light justify-content-between align-content-center p-0 shadow-sm"
     >
-      <h1 class="bg-danger navbar-brand col-lg-1 col-sm-2 col-xs-12 m-0">
+      <h1 class="bg-danger navbar-brand col-lg-1 col-sm-2 col-xs-12 m-0 text-white">
         Kenny
       </h1>
       <ul class="nav pr-3">
@@ -40,7 +40,66 @@
     <div class="bg">
       <header class="container pt-5 px-4 bg-light rounded mt-5 pb-5 px-0">
         <div class="page-header">
-          <h1>Portfolio</h1>
+          <h1>Coding Projects</h1>
+        </div>
+        <hr />
+        <div class="container">
+          <div class="row">
+            <div 
+              class="card col-sm-6 col-md-6 col-lg-4 shadow-sm p-0"
+            >
+              <img 
+                class="card-img-top" 
+                src="/Assets/Images/Screen Shot 2020-09-04 at 2.48.55 PM.png" 
+                alt="Card image cap"
+                style="width: inherit;"
+              >
+              <div class="card-body">
+                <h5 class="card-title">COVID-19 Dashboard</h5>
+                <p class="card-text">
+                  Contains a random movie generator, the weather based on current location, recipe generator, and current news.
+                </p>
+                <a href="https://kennykngo.github.io/COVID_dashboard/" class="btn btn-primary">GitHub Link</a>
+              </div>
+            </div>
+            <div 
+              class="card col-sm-6 col-md-6 col-lg-4 shadow-sm p-0"
+            >
+              <img 
+                class="card-img-top" 
+                src="Assets/Images/Screen Shot 2020-09-04 at 2.53.35 PM.png" 
+                alt="Card image cap"
+                style="width: inherit;"
+              >
+              <div class="card-body">
+                <h5 class="card-title">Weather Dashboard</h5>
+                <p class="card-text">
+                  Includes a 5-day forecast based off information received from an API.
+                </p>
+                <a href="https://kennykngo.github.io/bcs_weatherApp/" class="btn btn-primary">GitHub Link</a>
+              </div>
+            </div>
+            <div 
+            class="card col-sm-6 col-md-6 col-lg-4 shadow-sm p-0"
+          >
+            <img 
+              class="card-img-top" 
+              src="Assets/Images/Screen Shot 2020-09-04 at 4.22.50 PM.png" 
+              alt="Card image cap"
+              style="width: inherit;"
+            >
+            <div class="card-body">
+              <h5 class="card-title">Pokemon Trading Site</h5>
+              <p class="card-text">
+                Utilizes Pokemon API to return data of Pokemon onto the screen.
+              </p>
+              <a href="https://pokemon-trade-heroku.herokuapp.com/"  class="btn btn-primary">Heroku Link</a>
+            </div>
+          </div>
+            </div>
+          </div>
+        <div class="page-header mt-4">
+          <h1>Design Projects</h1>
         </div>
         <hr />
         <div class="container">
@@ -102,11 +161,11 @@
           </div>
         </div>
       </header>
-      <footer class="py-3 bg-dark text-white footer">
+      <!-- <footer class="py-3 bg-dark text-white footer">
         <div class="container text-center">
           <small> &copy; Hi</small>
         </div>
-      </footer>
+      </footer> -->
     </div>
   </body>
 </html>
